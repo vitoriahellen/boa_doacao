@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  gap: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 4%;
+}
+
+.container-texto {
+  font-size: 34pt;
+}
+
+.container-texto-laranja {
+  color: #e06e35;
+}
+
+.container-img img {
+  width: 70%;
+}
+
+.container-img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.container-texto-button {
+  font-size: 16pt;
+  color: #ffffff;
+  background-color: #e06e35;
+  border: none;
+  border-radius: 6px;
+  padding: 3%;
+}
+
+.container-texto-button:hover {
+  cursor: pointer;
+  background-color: #b94105;
+}
+
+.rodape {
+  font-size: 12pt;
+  color: #272727;
+  margin-bottom: 2%;
+  
+}

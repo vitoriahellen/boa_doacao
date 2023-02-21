@@ -1,0 +1,17 @@
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.tabela-itens td {
+   margin-left: 2%;
+   border: 1px solid rgb(182, 182, 182);
+}
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boa Doação | Inicio</title>
+    <link rel="icon" href="../img/iconlogo.png" />
+    <!-- ICONE DO TITULO DA PAGINA -->
+    <link rel="stylesheet" type="text/css" href="./css/inicio.css" />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/cadastro.css" />
+  </head>
+
+  <header class="cabecalho">
+    <!-- MENU DA PAGINA -->
+    <img src="../img/logo_menu.png" alt="logo boa doação" />
+    <ul class="cabecalho-menu">
+      <li class="cabecalho-menu-itens"><a href="/">Inicio</a></li>
+      <li class="cabecalho-menu-itens"><a href="sobre">Sobre</a></li>
+      <li class="cabecalho-menu-itens">
+        <a href="cadastro"> <input type="button" value="CADASTRAR ONG" /></a>
+      </li>
+      <li class="cabecalho-menu-itens-acessar">
+        <a href="login">Acessar Conta</a>
+      </li>
+    </ul>
+  </header>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="container-texto">
+          <center><h1>Agendamento para entrega de Cesta Básica</h1></center>
+          <h3>Preencha os seguintes campos:</h3>
+        </div>
+
+        <form action="/cadastrar_agendamento" method="POST">
+          <div class="container-form">
+            <input
+              class="container-form-itens"
+              type="text"
+              name="nome"
+              placeholder="Nome Completo"
+            />
+            <input
+              class="container-form-itens"
+              type="tel"
+              name="celular"
+              placeholder="Celular (00) 90000-0000"
+            />
+            <input
+              class="container-form-itens"
+              type="date"
+              name="data"
+              placeholder="Data e Hora"
+            />
+            <input
+              class="container-form-itens"
+              type="text"
+              name="obs"
+              placeholder="Observação"
+            />
+
+            <input
+              class="container-form-itens"
+              type="text"
+              name="campanha"
+              placeholder="Titulo da Campanha"
+            />
+
+            <h3 class="label">
+              Estou ciente sobre o endereço para a entrega da minha doação. E
+              confirmo que a minha doação será entregue na data por mim
+              estabelecida.
+            </h3>
+            <input
+              class="container-form-itens"
+              type="checkbox"
+              name="checkbox"
+              width="5px"
+            />
+            <input
+              class="container-form-itens-button"
+              type="submit"
+              value="Agendar"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <footer class="rodape">
+    <!-- RODAPÉ -->
+    <center>
+      <p>
+        Desenvolvido por
+        <a
+          href="https://www.linkedin.com/in/vitoria-hellen-ba5877145/"
+          target="_blank"
+          >Vitoria Hellen </a
+        >❤
+      </p>
+    </center>
+  </footer>
+</html>

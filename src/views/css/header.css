@@ -1,0 +1,61 @@
+* {
+  text-decoration: none;
+  color: inherit;
+  margin: 0px;
+  list-style: none;
+  font-family: Montserrat;
+}
+
+.cabecalho {
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabecalho img {
+  width: 15rem;
+  height: 2, 8 rem;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.cabecalho-menu-itens {
+  font-size: 14pt;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.cabecalho-menu-itens-acessar {
+  font-size: 12pt;
+  color: #696868;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+}
+.cabecalho-menu-itens input {
+  font-size: 12pt;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  background-color: #f5874f;
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  padding: 7%;
+}
+.cabecalho-menu-itens:hover {
+  color: #f5874f;
+}
+
+.cabecalho-menu-itens input:hover {
+  cursor: pointer;
+  background-color: #b94105;
+}

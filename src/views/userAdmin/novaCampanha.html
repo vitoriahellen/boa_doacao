@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boa Doação | Campanhas</title>
+    <link rel="icon" href="../../img/iconlogo.png" />
+    <!-- ICONE DO TITULO DA PAGINA -->
+    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css" />
+  </head>
+
+  <header class="cabecalho">
+    <!-- MENU DA PAGINA -->
+    <img src="../../img/logo_menu.png" alt="logo boa doação" />
+    <ul class="cabecalho-menu">
+      <li class="cabecalho-menu-itens"><a href="home">Inicio</a></li>
+      <li class="cabecalho-menu-itens"><a href="relatorios">Relatórios</a></li>
+      <li class="cabecalho-menu-itens">
+        <a href="novacampanha">
+          <input type="button" value="Nova Campanha"
+        /></a>
+      </li>
+      <li class="cabecalho-menu-itens-acessar"><a href="login">Sair</a></li>
+    </ul>
+  </header>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="container-texto">
+          <h1>Nova Campanha</h1>
+          <h3>Preencha com as informações da <br />nova campanha.</h3>
+        </div>
+
+        <form action="/cadastrar_campanha" method="POST">
+          <div class="container-form">
+            <input
+              class="container-form-itens"
+              type="text"
+              name="titulo"
+              placeholder="Título da Campanha"
+            />
+            <input
+              class="container-form-itens"
+              type="text"
+              name="resumo"
+              placeholder="Resumo"
+            />
+            <input
+              class="container-form-itens"
+              type="text"
+              name="endereco"
+              placeholder="Endereço para Entrega das Doações"
+            />
+            <h3 class="label">Data de Finalização da Campanha:</h3>
+            <input
+              class="container-form-itens"
+              type="date"
+              name="data"
+              placeholder="Data da Finalização"
+            />
+            
+            <input
+              class="container-form-itens-button"
+              type="submit"
+              value="Cadastrar"
+              onclick="Alerta()"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
